@@ -10,3 +10,4 @@ set shiftwidth=4
 set softtabstop=4
 set nofoldenable
 nmap <silent> <C-D> :NERDTreeToggle<CR>
+autocmd BufRead,BufNewFile *.md setlocal spell
